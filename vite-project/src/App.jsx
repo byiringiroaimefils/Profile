@@ -1,16 +1,17 @@
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Home from "../src/Components/Home"
-import AboutMe from "../src/Components/AboutMe"
-import Project from "../src/Components/Project"
+import Home from "./Components/Home"
+import AboutMe from "./Components/AboutMe"
+import Project from "./Components/Project"
 import { FaMoon , FaBars} from "react-icons/fa";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      helloe
+      {/* <BrowserRouter>
         <header className=" m-4 ml-8" >
           <div className="flex justify-between ">
             <div className="logo ml-6 translate-y-1">
@@ -48,7 +49,7 @@ function App() {
             <Route path="Project" element={<Project />} />
           </Routes>
         </main>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
